@@ -12,3 +12,5 @@ const poll = new Poll({
   password: 'Tnggl_25062006',
   port: 5432,
 })
+
+app.use(express.json())
