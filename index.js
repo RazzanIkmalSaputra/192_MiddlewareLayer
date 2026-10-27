@@ -7,5 +7,6 @@ const { Poll } =pg
 
 const poll = new Poll({
   user: 'postgres',
- 
+  host: 'localhost',
+  
 })
