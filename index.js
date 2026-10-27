@@ -6,4 +6,6 @@ const port = 3000
 const { Poll } =pg
 
 const poll = new Poll({
-  
+  user: 'postgres',
+ 
+})
