@@ -121,12 +121,15 @@ function validateParams(schema) {
     }
 }
 
-// method get
+//METHOD GET
 
 app.get('/', async (req, res) => {
-    const result = await pool.query()
+    const result = await pool.query(
+        'SELECT * FROM biodata ORDER BY id'
+    )
+    
     return successResponse(res, 'Data berhasil diambil', result.rows)
-})
+})  
 
 //method post
 
