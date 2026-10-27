@@ -10,4 +10,5 @@ const poll = new Poll({
   host: 'localhost',
   database: 'mahasiswa',
   password: 'Tnggl_25062006',
+  port: 5432,
 })
