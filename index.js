@@ -9,4 +9,5 @@ const poll = new Poll({
   user: 'postgres',
   host: 'localhost',
   database: 'mahasiswa',
+  password: 'Tnggl_25062006',
 })
