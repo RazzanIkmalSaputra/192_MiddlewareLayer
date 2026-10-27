@@ -124,7 +124,8 @@ function validateParams(schema) {
 // method get
 
 app.get('/', async (req, res) => {
-    const result = await poll.query
+    const result = await pool.query()
+    return successResponse(res, 'Data berhasil diambil', result.rows)
 })
 
 //method post
@@ -207,3 +208,13 @@ app.delete(
         )
     }
 )
+
+
+//ROUTE TIDAK DITEMUKAN
+app.use((req, res) => {
+    return errorResponse(
+        res,
+        'endpoint tidak ditemukan',
+        404
+    )
+})
