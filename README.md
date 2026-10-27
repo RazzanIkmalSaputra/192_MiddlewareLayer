@@ -10,3 +10,6 @@ DELETE
 
 <img width="1917" height="1077" alt="image" src="https://github.com/user-attachments/assets/27d8aeb5-582b-4b15-8bb9-e9ad5c220c6f" />
 
+PUT
+
+<img width="1917" height="957" alt="image" src="https://github.com/user-attachments/assets/9d261222-f159-46fc-a009-3273934df5e6" />
